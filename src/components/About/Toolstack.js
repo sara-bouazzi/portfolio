@@ -8,7 +8,6 @@ import {
   SiJenkins,
   SiLinux,
   SiGithubactions,
-  SiGitlens,
 } from "react-icons/si";
 import { DiGit } from "react-icons/di";
 
@@ -19,8 +18,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons"><SiPostman /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiGithub /></Col>
+
+      {/* Git + GitLens (same icon, safe) */}
       <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
-      <Col xs={4} md={2} className="tech-icons"><SiGitlens /></Col>
+
       <Col xs={4} md={2} className="tech-icons"><SiGithubactions /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
       <Col xs={4} md={2} className="tech-icons"><SiLinux /></Col>
