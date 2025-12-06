@@ -23,7 +23,7 @@ function Home2() {
               Hello! I'm <strong className="purple">Sarra Bouazzi</strong>, a passionate full-stack developer from Tunisia.
               <br />
               <br />
-              🎓 I'm currently in my second year of engineering at <strong className="purple">ESPRIT</strong>, where I’ve worked on academic and technical projects that made a real difference.
+              🎓 I'm currently in my 3rd year of engineering at <strong className="purple">ESPRIT</strong>, where I’ve worked on academic and technical projects that made a real difference.
               <br />
               <br />
               💻 I enjoy building modern web applications using technologies like{" "}
