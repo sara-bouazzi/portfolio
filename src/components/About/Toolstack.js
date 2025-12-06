@@ -7,33 +7,23 @@ import {
   SiGithub,
   SiJenkins,
   SiLinux,
+  SiGithubactions,
+  SiGitlens,
 } from "react-icons/si";
-import { DiGit } from "react-icons/di"; // ✅ CORRECT !
+import { DiGit } from "react-icons/di";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJenkins />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
+      <Col xs={4} md={2} className="tech-icons"><SiVisualstudiocode /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiPostman /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiDocker /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGithub /></Col>
+      <Col xs={4} md={2} className="tech-icons"><DiGit /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGitlens /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiGithubactions /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiJenkins /></Col>
+      <Col xs={4} md={2} className="tech-icons"><SiLinux /></Col>
     </Row>
   );
 }
